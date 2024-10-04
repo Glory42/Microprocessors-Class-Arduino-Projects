@@ -25,11 +25,11 @@ TrafficDensity currentDensity = MEDIUM_DENSITY;
 unsigned long stateStartTime = 0;
 unsigned long densityChangeTime = 0;
 bool buttonPressed = false;
-unsigned long pauseTime = 0; // to store how long the state was active before pausing
+unsigned long pauseTime = 0; 
 
-const unsigned long DENSITY_CHANGE_INTERVAL = 30000; //30 seconds
+const unsigned long DENSITY_CHANGE_INTERVAL = 30000; 
 
-// Button debounce variables
+
 const unsigned long DEBOUNCE_DELAY = 50;
 int lastButtonState = HIGH;
 int buttonState;
@@ -87,8 +87,8 @@ void loop() {
     pedestrianCrossing();
     buttonPressed = false;
 
-    // After pedestrian sequence, resume from where the lights left off by adjusting stateStartTime
-    stateStartTime = millis() - pauseTime; // Subtract the paused time to "resume" the sequence correctly
+    
+    stateStartTime = millis() - pauseTime; 
   } else {
     normalSequence();
   }
@@ -109,7 +109,7 @@ void checkButton() {
         buttonPressed = true;
         Serial.println("Button press detected");
         
-        // Record how long the current state has been active before the button press
+        
         pauseTime = millis() - stateStartTime;
       }
     }
