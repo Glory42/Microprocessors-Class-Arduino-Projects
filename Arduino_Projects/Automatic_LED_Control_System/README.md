@@ -24,8 +24,3 @@ This project demonstrates a basic traffic light system designed using the Arduin
 ## How it Works
 - **Normal Operation**: The traffic lights follow a loop: Red for 5 seconds, Yellow for 2 seconds, Green for 5 seconds.
 - **Pedestrian Request**: When the pedestrian button is pressed, the red light will blink to signal the crossing, and after that, the traffic lights return to their regular sequence.
-
-## Getting Started
-1. Clone this repository to your local machine:
-   ```bash
-   git clone https://github.com/your-username/traffic-light-simulation.git
