@@ -1,103 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Traffic Light Simulation with Pedestrian Crossing Button</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 20px;
-      background-color: #f4f4f9;
-      color: #333;
-    }
-    h1, h2 {
-      color: #2c3e50;
-    }
-    .container {
-      max-width: 900px;
-      margin: auto;
-      background: #fff;
-      padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-    ul {
-      line-height: 1.6;
-    }
-    .components, .working, .intro {
-      margin-bottom: 20px;
-    }
-    .components ul, .working ul {
-      list-style-type: none;
-      padding: 0;
-    }
-    .components li::before, .working li::before {
-      content: '• ';
-      color: #2980b9;
-      font-weight: bold;
-    }
-    code {
-      background-color: #e3e3e3;
-      padding: 2px 4px;
-      border-radius: 3px;
-    }
-    .highlight {
-      background-color: #f39c12;
-      padding: 5px;
-      color: white;
-      border-radius: 5px;
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <h1>Traffic Light Simulation with Pedestrian Crossing Button</h1>
-    <p class="intro">
-      This project demonstrates a basic traffic light system designed using the <strong>Arduino</strong> platform. The system operates with three LED lights (red, yellow, green) that simulate a standard traffic light sequence, with an additional feature for pedestrian crossing.
-    </p>
+# Traffic Light Simulation with Pedestrian Crossing Button
 
-    <h2>Key Features:</h2>
-    <div class="features">
-      <ul>
-        <li><strong>Traffic Light Sequence:</strong></li>
-        <ul>
-          <li>Red light stays on for 5 seconds</li>
-          <li>Yellow light stays on for 2 seconds</li>
-          <li>Green light stays on for 5 seconds</li>
-        </ul>
-        <li><strong>Pedestrian Crossing:</strong></li>
-        <ul>
-          <li>A button simulates a pedestrian crossing request.</li>
-          <li>When the button is pressed, the red light blinks, allowing pedestrian crossing.</li>
-          <li>After blinking, the traffic lights return to normal operation.</li>
-        </ul>
-      </ul>
-    </div>
+This project demonstrates a basic traffic light system designed using the Arduino platform. The system operates with three LED lights (red, yellow, green) that simulate a standard traffic light sequence, with an additional feature for pedestrian crossing.
 
-    <h2>Components Used:</h2>
-    <div class="components">
-      <ul>
-        <li>Arduino board (any compatible model)</li>
-        <li>LEDs (Red, Yellow, Green)</li>
-        <li>Resistors (appropriate values for LEDs)</li>
-        <li>Push button (for pedestrian crossing)</li>
-        <li>Breadboard and jumper wires</li>
-      </ul>
-    </div>
+## Key Features
 
-    <h2>How it Works:</h2>
-    <div class="working">
-      <ul>
-        <li><strong>Normal Operation:</strong> The traffic lights follow a loop: <span class="highlight">Red for 5 seconds</span>, <span class="highlight">Yellow for 2 seconds</span>, and <span class="highlight">Green for 5 seconds</span>.</li>
-        <li><strong>Pedestrian Request:</strong> When the pedestrian button is pressed, the red light blinks, signaling that pedestrians may cross. After blinking, the system resumes the normal traffic light sequence.</li>
-      </ul>
-    </div>
+- **Traffic Light Sequence**:
+  - The red light stays on for 5 seconds.
+  - The yellow light stays on for 2 seconds.
+  - The green light stays on for 5 seconds.
+- **Pedestrian Crossing**:
+  - A button is added to simulate a pedestrian crossing request.
+  - When the button is pressed, the red light blinks to indicate pedestrian crossing.
+  - After the pedestrian crossing sequence, the traffic lights return to normal operation.
 
-    <p class="closing">
-      This project introduces students to basic circuit design and programming using Arduino, covering key concepts like input-output pins and digital signals.
-    </p>
-  </div>
+## Components Used
+
+- Arduino board (any compatible model)
+- LEDs (Red, Yellow, Green)
+- Resistors (appropriate values for LEDs)
+- Push button (for pedestrian crossing)
+- Breadboard and jumper wires
+
+## How it Works
+
+1. **Normal Operation**: The traffic lights follow a loop: Red for 5 seconds, Yellow for 2 seconds, Green for 5 seconds.
+2. **Pedestrian Request**: When the pedestrian button is pressed, the red light will blink to signal the crossing, and after that, the traffic lights return to their regular sequence.
+
+## Getting Started
+
+1. Clone this repository to your local machine.
+2. Open the Arduino IDE and load the project file.
+3. Connect your Arduino board and upload the sketch.
+4. Set up the circuit according to the provided schematic.
+5. Power on the Arduino and observe the traffic light simulation in action!
+
+## Code Structure
+
+- `traffic_light_simulation.ino`: Main Arduino sketch file containing the entire code for the project.
+- `README.md`: This file, containing project documentation.
+
+## Contributing
+
+Contributions to improve the project are welcome. Please feel free to fork the repository, make changes, and submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
+
+
+## Acknowledgments
+
+- Arduino community for their excellent documentation and examples.
+- Contributors who have helped to improve and maintain this project.
+
+For questions, issues, or suggestions, please open an issue on the GitHub repository.
+
+  
 </body>
 </html>
