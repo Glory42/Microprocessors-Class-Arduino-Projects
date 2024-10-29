@@ -20,8 +20,23 @@ This repository contains a collection of Arduino projects completed as part of m
   - Push button
   - Breadboard and jumper wires
 
+### 2. Ambient Light-Controlled Distance Sensor Display
+- **Description**: A proximity-based ambient display system that changes LED color based on object distance, with a button for alert mode.
+- **Key Features**:
+  - Changes LED color based on detected distance:
+    - Blue for far (50+ cm)
+    - Green for medium (20-50 cm)
+    - Red for close (under 20 cm)
+  - Alert mode activated by button press, blinking red LED when an object is within 20 cm.
+- **Components Used**:
+  - Arduino Uno (or compatible model)
+  - RGB LED
+  - HC-SR04 Ultrasonic Distance Sensor
+  - Button
+  - 220-ohm resistors
+  - Breadboard and jumper wires
 
-*(i will add more projects)*
+*(More projects to be added)*
 
 ## Technologies Used
 
@@ -29,4 +44,3 @@ This repository contains a collection of Arduino projects completed as part of m
 - **Arduino Board**: Any compatible model.
 - **Breadboard**: For circuit assembly.
 - **Various Sensors and Components**: Depending on the project.
-
