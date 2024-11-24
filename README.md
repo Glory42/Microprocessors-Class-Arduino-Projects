@@ -2,9 +2,6 @@
 
 Welcome to my repository for the Microprocessors class! Here, you'll find my lab work, which includes various Arduino projects designed to explore and demonstrate microprocessor concepts. Each project focuses on different aspects of microprocessor functionality and programming.
 
-## Introduction
-
-This repository contains a collection of Arduino projects completed as part of my Microprocessors class. Each project illustrates practical applications of microprocessor theory and provides hands-on experience with hardware and software development using Arduino.
 
 ## Projects
 
@@ -36,6 +33,21 @@ This repository contains a collection of Arduino projects completed as part of m
   - 220-ohm resistors
   - Breadboard and jumper wires
 
+### 3. Plant Monitoring and Alert System
+- **Description**: Monitors plant conditions using sensors and sends updates via Telegram to ensure proper care.
+- **Key Features**:
+  - Measures temperature, humidity, light level, and soil moisture.
+  - Sends real-time updates and alerts via Telegram.
+  - Provides specific messages based on soil moisture levels.
+- **Components Used**:
+  - ESP32 (or similar WiFi-enabled Arduino board)
+  - DHT11 Sensor
+  - LDR Sensor
+  - Soil Moisture Sensor
+  - WiFi module
+  - Breadboard and jumper wires
+  - Resistors
+
 *(More projects to be added)*
 
 ## Technologies Used
@@ -44,3 +56,7 @@ This repository contains a collection of Arduino projects completed as part of m
 - **Arduino Board**: Any compatible model.
 - **Breadboard**: For circuit assembly.
 - **Various Sensors and Components**: Depending on the project.
+
+---
+
+Each project in this repository showcases a unique aspect of microcontroller-based systems. Check back for updates as more projects are added!
