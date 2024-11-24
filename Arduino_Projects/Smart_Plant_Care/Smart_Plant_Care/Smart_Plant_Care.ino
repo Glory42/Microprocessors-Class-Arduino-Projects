@@ -8,10 +8,10 @@ const char* ssid = "*********";         // Wifi name
 const char* password = "*******";      // Wifi password
 
 // Telegram Bot Token
-const char* botToken = "7555869577:AAHt3vDwGwxgHbsi3s6jqmPin25_uEJqiEA"; // telegram bot token
+const char* botToken = "***********"; // telegram bot token
 
 // Telegram Chat ID 
-const char* chatID = "6829161914"; // telegram chat ID
+const char* chatID = "*********"; // telegram chat ID
 
 // DHT Sensor Setup
 #define DHT_PIN 25
