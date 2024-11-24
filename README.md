@@ -59,4 +59,3 @@ Welcome to my repository for the Microprocessors class! Here, you'll find my lab
 
 ---
 
-Each project in this repository showcases a unique aspect of microcontroller-based systems. Check back for updates as more projects are added!
