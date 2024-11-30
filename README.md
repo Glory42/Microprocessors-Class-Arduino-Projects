@@ -2,6 +2,7 @@
 
 Welcome to my repository for the Microprocessors class! Here, you'll find my lab work, which includes various Arduino projects designed to explore and demonstrate microprocessor concepts. Each project focuses on different aspects of microprocessor functionality and programming.
 
+Special thanks to [osnn96](https://github.com/osnn96) for their contributions!
 
 ## Projects
 
@@ -33,7 +34,7 @@ Welcome to my repository for the Microprocessors class! Here, you'll find my lab
   - 220-ohm resistors
   - Breadboard and jumper wires
 
-### 3. Plant Monitoring and Alert System
+### 3. Plant Monitoring and Alert System 
 - **Description**: Monitors plant conditions using sensors and sends updates via Telegram to ensure proper care.
 - **Key Features**:
   - Measures temperature, humidity, light level, and soil moisture.
