@@ -1,6 +1,6 @@
 # Plant Monitoring and Alert System
 
-This project implements a plant monitoring system using the Arduino platform, equipped with sensors to measure environmental conditions and send updates via Telegram. The system provides real-time data about temperature, humidity, light levels, and soil moisture to help ensure optimal plant care.
+This project that i work with [osnn96](https://github.com/osnn96) implements a plant monitoring system using the Arduino platform, equipped with sensors to measure environmental conditions and send updates via Telegram. The system provides real-time data about temperature, humidity, light levels, and soil moisture to help ensure optimal plant care.
 
 ## Key Features
 
